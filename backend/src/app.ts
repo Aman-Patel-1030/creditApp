@@ -12,7 +12,7 @@ connectDB();
 // Middleware
 app.use(express.json());
 app.use(cors({
-  origin: ['http://localhost:5173', 'https://credit-sea-assignment.vercel.app'],
+  origin: ['http://localhost:5173', 'https://credit-app-pi.vercel.app/'],
   methods: ['GET', 'POST', 'PATCH', 'DELETE'],
   credentials: true
 }));
